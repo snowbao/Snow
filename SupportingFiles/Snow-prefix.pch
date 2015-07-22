@@ -15,6 +15,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreGraphics/CoreGraphics.h>
 #import <CoreFoundation/CoreFoundation.h>
+#import <BAFluidView/UIColor+ColorWithHex.h>
 
 
 //personal file

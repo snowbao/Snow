@@ -12,6 +12,7 @@
 		807F28CE1B5FB4EA00CD8BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807F28CC1B5FB4EA00CD8BBC /* Foundation.framework */; };
 		807F28D01B5FB4F200CD8BBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807F28CF1B5FB4F200CD8BBC /* CoreGraphics.framework */; };
 		807F28D21B5FB50F00CD8BBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807F28D11B5FB50F00CD8BBC /* UIKit.framework */; };
+		807F28DA1B5FB9BC00CD8BBC /* BAFluidView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807F28D91B5FB9BC00CD8BBC /* BAFluidView.framework */; };
 		80E994A31B5F8FBD006C3816 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E994A21B5F8FBD006C3816 /* main.m */; };
 		80E994A61B5F8FBD006C3816 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E994A51B5F8FBD006C3816 /* AppDelegate.m */; };
 		80E994AE1B5F8FBD006C3816 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E994AD1B5F8FBD006C3816 /* Images.xcassets */; };
@@ -39,6 +40,7 @@
 		807F28CC1B5FB4EA00CD8BBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		807F28CF1B5FB4F200CD8BBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		807F28D11B5FB50F00CD8BBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		807F28D91B5FB9BC00CD8BBC /* BAFluidView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BAFluidView.framework; path = "../../../github/BAFluidView/build/Debug-iphoneos/BAFluidView.framework"; sourceTree = "<group>"; };
 		80E9949D1B5F8FBD006C3816 /* Snow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E994A11B5F8FBD006C3816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Snow/Info.plist; sourceTree = "<group>"; };
 		80E994A21B5F8FBD006C3816 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../Snow/main.m; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807F28DA1B5FB9BC00CD8BBC /* BAFluidView.framework in Frameworks */,
 				807F28D21B5FB50F00CD8BBC /* UIKit.framework in Frameworks */,
 				807F28D01B5FB4F200CD8BBC /* CoreGraphics.framework in Frameworks */,
 				807F28CD1B5FB4EA00CD8BBC /* CoreFoundation.framework in Frameworks */,
@@ -233,6 +236,7 @@
 		83B5C50B6EDB743781DCF9F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				807F28D91B5FB9BC00CD8BBC /* BAFluidView.framework */,
 				807F28D11B5FB50F00CD8BBC /* UIKit.framework */,
 				807F28CF1B5FB4F200CD8BBC /* CoreGraphics.framework */,
 				807F28CB1B5FB4EA00CD8BBC /* CoreFoundation.framework */,
@@ -489,6 +493,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/snow/github/BAFluidView/build/Debug-iphoneos",
 				);
 				GCC_ENABLE_PASCAL_STRINGS = YES;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
@@ -508,6 +513,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/snow/github/BAFluidView/build/Debug-iphoneos",
 				);
 				GCC_ENABLE_PASCAL_STRINGS = YES;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;

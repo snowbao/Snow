@@ -31,6 +31,7 @@
     [super viewDidLoad];
     
     self.title = @"一起买单";
+    self.view.backgroundColor = [UIColor colorWithHex:0xecedee];
     
     if (IOS_VERSION >= 7.0) {
         self.automaticallyAdjustsScrollViewInsets = NO;
@@ -41,21 +42,15 @@
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
     
-    if (NSFoundationVersionNumber >= NSFoundationVersionNumber_iOS_7_0 ||
-        (self.parentViewController != nil && ![self.parentViewController isKindOfClass:[UINavigationController class]])) {
-        CGRect rect = self.view.frame;
-        rect.size.height -= (self.navigationController.navigationBar.frame.size.height + [UIApplication sharedApplication].statusBarFrame.size.height);
-        self.view.frame = rect;
-    }
+    [self _initFluidView];
+
     
-    [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-    UILabel * la = [[UILabel alloc] initWithFrame:CGRectMake(50, 200, 120, 88)];
-    la.backgroundColor = [UIColor yellowColor];
+    UILabel * la = [[UILabel alloc] initWithFrame:CGRectMake((SCREEN_WIDTH - 200) / 2, 270, 200, 88)];
+    la.backgroundColor = [UIColor clearColor];
     la.text = @"hello snow";
+    la.font = SYSTEMFONT(28);
+    la.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:la];
-    
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -65,7 +60,6 @@
 
 - (void)viewDidDisappear:(BOOL)animated
 {
-    
 }
 
 #pragma mark -
@@ -73,5 +67,14 @@
 
 #pragma mark -
 #pragma mark UI
+
+- (void)_initFluidView
+{
+    BAFluidView *view = [[BAFluidView alloc] initWithFrame:self.view.frame];
+    [view fillTo:@1.0];
+    view.fillColor = [UIColor colorWithHex:0x397ebe];
+    [view startAnimation];
+    [self.view addSubview:view];
+}
 
 @end
