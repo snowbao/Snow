@@ -1,0 +1,25 @@
+//
+//  Snow-prefix.pch
+//  Snow
+//
+//  Created by snow on 15/7/22.
+//  Copyright (c) 2015年 snow. All rights reserved.
+//
+
+#ifndef Snow_Snow_prefix_pch
+#define Snow_Snow_prefix_pch
+
+//system file
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <CoreFoundation/CoreFoundation.h>
+
+
+//personal file
+
+#import "SNDefines.h"
+#import "SNTools.h"
+
+#endif

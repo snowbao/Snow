@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		807F28CA1B5FB49E00CD8BBC /* SNTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 807F28C91B5FB49E00CD8BBC /* SNTools.m */; };
+		807F28CD1B5FB4EA00CD8BBC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807F28CB1B5FB4EA00CD8BBC /* CoreFoundation.framework */; };
+		807F28CE1B5FB4EA00CD8BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807F28CC1B5FB4EA00CD8BBC /* Foundation.framework */; };
+		807F28D01B5FB4F200CD8BBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807F28CF1B5FB4F200CD8BBC /* CoreGraphics.framework */; };
+		807F28D21B5FB50F00CD8BBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807F28D11B5FB50F00CD8BBC /* UIKit.framework */; };
 		80E994A31B5F8FBD006C3816 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E994A21B5F8FBD006C3816 /* main.m */; };
 		80E994A61B5F8FBD006C3816 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E994A51B5F8FBD006C3816 /* AppDelegate.m */; };
 		80E994AE1B5F8FBD006C3816 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E994AD1B5F8FBD006C3816 /* Images.xcassets */; };
 		80E994BD1B5F8FBD006C3816 /* SnowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E994BC1B5F8FBD006C3816 /* SnowTests.m */; };
 		80E994D41B5F9295006C3816 /* SNRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E994D31B5F9295006C3816 /* SNRootViewController.m */; };
+		CDEB7D3D211B3B100D37076D /* libPods-Snow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAC3AE7B499A519DADDCFBF /* libPods-Snow.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43BE90621AE57072C9CFCEF1 /* Pods-Snow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snow/Pods-Snow.debug.xcconfig"; sourceTree = "<group>"; };
+		807F28C71B5FB48E00CD8BBC /* SNDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDefines.h; sourceTree = "<group>"; };
+		807F28C81B5FB49E00CD8BBC /* SNTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTools.h; sourceTree = "<group>"; };
+		807F28C91B5FB49E00CD8BBC /* SNTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTools.m; sourceTree = "<group>"; };
+		807F28CB1B5FB4EA00CD8BBC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		807F28CC1B5FB4EA00CD8BBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		807F28CF1B5FB4F200CD8BBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		807F28D11B5FB50F00CD8BBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		80E9949D1B5F8FBD006C3816 /* Snow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E994A11B5F8FBD006C3816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Snow/Info.plist; sourceTree = "<group>"; };
 		80E994A21B5F8FBD006C3816 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../Snow/main.m; sourceTree = "<group>"; };
@@ -36,6 +50,9 @@
 		80E994BC1B5F8FBD006C3816 /* SnowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowTests.m; sourceTree = "<group>"; };
 		80E994D21B5F9295006C3816 /* SNRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNRootViewController.h; sourceTree = "<group>"; };
 		80E994D31B5F9295006C3816 /* SNRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNRootViewController.m; sourceTree = "<group>"; };
+		80E994DC1B5FA709006C3816 /* Snow-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Snow-prefix.pch"; sourceTree = "<group>"; };
+		ADAC3AE7B499A519DADDCFBF /* libPods-Snow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Snow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E937DC608B29B4A0CDF2067E /* Pods-Snow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snow/Pods-Snow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807F28D21B5FB50F00CD8BBC /* UIKit.framework in Frameworks */,
+				807F28D01B5FB4F200CD8BBC /* CoreGraphics.framework in Frameworks */,
+				807F28CD1B5FB4EA00CD8BBC /* CoreFoundation.framework in Frameworks */,
+				807F28CE1B5FB4EA00CD8BBC /* Foundation.framework in Frameworks */,
+				CDEB7D3D211B3B100D37076D /* libPods-Snow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +78,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D800D98AC4AB1560F784F71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43BE90621AE57072C9CFCEF1 /* Pods-Snow.debug.xcconfig */,
+				E937DC608B29B4A0CDF2067E /* Pods-Snow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		807F28C61B5FB46C00CD8BBC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				807F28C71B5FB48E00CD8BBC /* SNDefines.h */,
+				807F28C81B5FB49E00CD8BBC /* SNTools.h */,
+				807F28C91B5FB49E00CD8BBC /* SNTools.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		80E994941B5F8FBD006C3816 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +105,8 @@
 				80E994C81B5F90AA006C3816 /* SupportingFiles */,
 				80E994B91B5F8FBD006C3816 /* SnowTests */,
 				80E9949E1B5F8FBD006C3816 /* Products */,
+				2D800D98AC4AB1560F784F71 /* Pods */,
+				83B5C50B6EDB743781DCF9F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,8 +150,8 @@
 				80E994C91B5F914B006C3816 /* Base */,
 				80E994CA1B5F91AF006C3816 /* Controllers */,
 				80E994CD1B5F91AF006C3816 /* Logic */,
+				807F28C61B5FB46C00CD8BBC /* Utils */,
 				80E994D01B5F91AF006C3816 /* RPC */,
-				80E994D11B5F91AF006C3816 /* Utils */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -118,6 +161,7 @@
 			children = (
 				80E994A11B5F8FBD006C3816 /* Info.plist */,
 				80E994A21B5F8FBD006C3816 /* main.m */,
+				80E994DC1B5FA709006C3816 /* Snow-prefix.pch */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -186,11 +230,16 @@
 			path = RPC;
 			sourceTree = "<group>";
 		};
-		80E994D11B5F91AF006C3816 /* Utils */ = {
+		83B5C50B6EDB743781DCF9F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				807F28D11B5FB50F00CD8BBC /* UIKit.framework */,
+				807F28CF1B5FB4F200CD8BBC /* CoreGraphics.framework */,
+				807F28CB1B5FB4EA00CD8BBC /* CoreFoundation.framework */,
+				807F28CC1B5FB4EA00CD8BBC /* Foundation.framework */,
+				ADAC3AE7B499A519DADDCFBF /* libPods-Snow.a */,
 			);
-			path = Utils;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80E994C01B5F8FBD006C3816 /* Build configuration list for PBXNativeTarget "Snow" */;
 			buildPhases = (
+				79803D25D5B9DF7A976DCEB4 /* Check Pods Manifest.lock */,
 				80E994991B5F8FBD006C3816 /* Sources */,
 				80E9949A1B5F8FBD006C3816 /* Frameworks */,
 				80E9949B1B5F8FBD006C3816 /* Resources */,
+				3B1FC6C115526168E95C5B39 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,6 +337,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B1FC6C115526168E95C5B39 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snow/Pods-Snow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79803D25D5B9DF7A976DCEB4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80E994991B5F8FBD006C3816 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -293,6 +377,7 @@
 			files = (
 				80E994D41B5F9295006C3816 /* SNRootViewController.m in Sources */,
 				80E994A61B5F8FBD006C3816 /* AppDelegate.m in Sources */,
+				807F28CA1B5FB49E00CD8BBC /* SNTools.m in Sources */,
 				80E994A31B5F8FBD006C3816 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,8 +483,17 @@
 		};
 		80E994C11B5F8FBD006C3816 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BE90621AE57072C9CFCEF1 /* Pods-Snow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_ENABLE_PASCAL_STRINGS = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SupportingFiles/Snow-prefix.pch";
 				INFOPLIST_FILE = Snow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,8 +502,17 @@
 		};
 		80E994C21B5F8FBD006C3816 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E937DC608B29B4A0CDF2067E /* Pods-Snow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_ENABLE_PASCAL_STRINGS = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SupportingFiles/Snow-prefix.pch";
 				INFOPLIST_FILE = Snow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -469,6 +572,7 @@
 				80E994C21B5F8FBD006C3816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80E994C31B5F8FBD006C3816 /* Build configuration list for PBXNativeTarget "SnowTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +581,7 @@
 				80E994C51B5F8FBD006C3816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
