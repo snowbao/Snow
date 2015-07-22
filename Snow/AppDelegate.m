@@ -1,22 +1,27 @@
 //
-//  AppDelegate.m
-//  Snow
+//  CityServiceAppDelegate.m
+//  CityService
 //
-//  Created by snow on 15/7/22.
-//  Copyright (c) 2015年 snow. All rights reserved.
+//  Created by WenBi on 13-4-2.
+//  Copyright (c) 2013年 Alipay. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "SNRootViewController.h"
 
 @interface AppDelegate ()
+
+@property(nonatomic, strong) SNRootViewController *rootController;
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.rootController = [[SNRootViewController alloc] init];
+    self.window.rootViewController = self.rootController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

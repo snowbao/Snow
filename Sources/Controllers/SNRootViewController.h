@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SNRootViewController.h
 //  Snow
 //
 //  Created by snow on 15/7/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SNRootViewController : UIViewController
 
 @end
-
