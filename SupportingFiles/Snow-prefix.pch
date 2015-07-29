@@ -22,5 +22,6 @@
 
 #import "SNDefines.h"
 #import "SNTools.h"
+#import "UIView+Sizes.h"
 
 #endif

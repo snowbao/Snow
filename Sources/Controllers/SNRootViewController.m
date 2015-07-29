@@ -45,7 +45,7 @@
     [self _initFluidView];
 
     
-    UILabel * la = [[UILabel alloc] initWithFrame:CGRectMake((SCREEN_WIDTH - 200) / 2, 270, 200, 88)];
+    UILabel * la = [[UILabel alloc] initWithFrame:CGRectMake((SCREEN_WIDTH - 200) / 2, 390, 200, 88)];
     la.backgroundColor = [UIColor clearColor];
     la.text = @"hello snow";
     la.font = SYSTEMFONT(28);
@@ -70,13 +70,19 @@
 
 - (void)_initFluidView
 {
-    BAFluidView *view = [[BAFluidView alloc] initWithFrame:self.view.frame maxAmplitude:40 minAmplitude:5 amplitudeIncrement:5 startElevation:20
-                         ];
-    [view fillTo:@0.8];
-    view.fillColor = [UIColor colorWithHex:0x397ebe];
+    BAFluidView *view = [[BAFluidView alloc] initWithFrame:self.view.frame maxAmplitude:40 minAmplitude:5 amplitudeIncrement:3 startElevation:@0.1];
+    [view fillTo:@0.9];
+    view.fillColor = [UIColor yellowColor];
+    view.strokeColor = [UIColor redColor];
     view.fillAutoReverse = NO;
     [view startAnimation];
     [self.view addSubview:view];
+    
+    UIImage* image = [UIImage imageNamed:@"Snow.bundle/ellipse"];
+    CALayer* maskingLayer = [CALayer layer];
+    maskingLayer.frame = CGRectMake(CGRectGetMidX(view.frame) - image.size.width / 2, (SCREEN_HEIGHT - image.size.height) / 2, image.size.width, image.size.height);
+    [maskingLayer setContents:(id)[image CGImage]];
+    [view.layer setMask:maskingLayer];
 }
 
 @end

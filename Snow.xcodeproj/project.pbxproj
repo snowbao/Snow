@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		805878C71B6887F400028DF5 /* Snow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 805878C61B6887F400028DF5 /* Snow.bundle */; };
+		805878CA1B68B67F00028DF5 /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 805878C91B68B67F00028DF5 /* UIView+Sizes.m */; };
 		807F28CA1B5FB49E00CD8BBC /* SNTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 807F28C91B5FB49E00CD8BBC /* SNTools.m */; };
 		807F28CD1B5FB4EA00CD8BBC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807F28CB1B5FB4EA00CD8BBC /* CoreFoundation.framework */; };
 		807F28CE1B5FB4EA00CD8BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807F28CC1B5FB4EA00CD8BBC /* Foundation.framework */; };
@@ -33,6 +35,9 @@
 
 /* Begin PBXFileReference section */
 		43BE90621AE57072C9CFCEF1 /* Pods-Snow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snow/Pods-Snow.debug.xcconfig"; sourceTree = "<group>"; };
+		805878C61B6887F400028DF5 /* Snow.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Snow.bundle; sourceTree = "<group>"; };
+		805878C81B68B67F00028DF5 /* UIView+Sizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sizes.h"; sourceTree = "<group>"; };
+		805878C91B68B67F00028DF5 /* UIView+Sizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizes.m"; sourceTree = "<group>"; };
 		807F28C71B5FB48E00CD8BBC /* SNDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDefines.h; sourceTree = "<group>"; };
 		807F28C81B5FB49E00CD8BBC /* SNTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTools.h; sourceTree = "<group>"; };
 		807F28C91B5FB49E00CD8BBC /* SNTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTools.m; sourceTree = "<group>"; };
@@ -93,6 +98,8 @@
 		807F28C61B5FB46C00CD8BBC /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				805878C81B68B67F00028DF5 /* UIView+Sizes.h */,
+				805878C91B68B67F00028DF5 /* UIView+Sizes.m */,
 				807F28C71B5FB48E00CD8BBC /* SNDefines.h */,
 				807F28C81B5FB49E00CD8BBC /* SNTools.h */,
 				807F28C91B5FB49E00CD8BBC /* SNTools.m */,
@@ -142,6 +149,7 @@
 		80E994C61B5F90AA006C3816 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				805878C61B6887F400028DF5 /* Snow.bundle */,
 				80E994AD1B5F8FBD006C3816 /* Images.xcassets */,
 			);
 			path = Resources;
@@ -328,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805878C71B6887F400028DF5 /* Snow.bundle in Resources */,
 				80E994AE1B5F8FBD006C3816 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +391,7 @@
 				80E994D41B5F9295006C3816 /* SNRootViewController.m in Sources */,
 				80E994A61B5F8FBD006C3816 /* AppDelegate.m in Sources */,
 				807F28CA1B5FB49E00CD8BBC /* SNTools.m in Sources */,
+				805878CA1B68B67F00028DF5 /* UIView+Sizes.m in Sources */,
 				80E994A31B5F8FBD006C3816 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
