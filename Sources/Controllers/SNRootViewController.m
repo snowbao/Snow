@@ -70,9 +70,11 @@
 
 - (void)_initFluidView
 {
-    BAFluidView *view = [[BAFluidView alloc] initWithFrame:self.view.frame];
-    [view fillTo:@1.0];
+    BAFluidView *view = [[BAFluidView alloc] initWithFrame:self.view.frame maxAmplitude:40 minAmplitude:5 amplitudeIncrement:5 startElevation:20
+                         ];
+    [view fillTo:@0.8];
     view.fillColor = [UIColor colorWithHex:0x397ebe];
+    view.fillAutoReverse = NO;
     [view startAnimation];
     [self.view addSubview:view];
 }
